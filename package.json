@@ -1,0 +1,14 @@
+{
+  "name": "assignment01",
+  "version": "1.0.0",
+  "description": "CVS to JSON converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teresa Dickert",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "2.0.7"
+  }
+}
