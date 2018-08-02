@@ -4,7 +4,7 @@ const csvFilePath = 'customer-data.csv'
 csv()
   .fromFile(csvFilePath)
   .then((jsonObj)=> {
-    fs.writeFile('customer-data.json', JSON.stringify(jsonObj, null, 4), (err) => {
+    fs.writeFile('customer-data.json', JSON.stringify(jsonObj, null, 2), (err) => {
     if (err) throw err;
     console.log('Conversion complete')
   })
